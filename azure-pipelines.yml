@@ -5,7 +5,10 @@
 trigger:
 - main
 
-pool: test
+pool:
+name: Default
+demands:
+- agent.name -equals test
 
 resources:
 - repo: self
