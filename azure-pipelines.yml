@@ -6,9 +6,9 @@ trigger:
 - main
 
 pool:
-name: Default
-demands:
-- agent.name -equals test
+  name: Default
+  demands:
+   - agent.name -equals test
 
 resources:
 - repo: self
